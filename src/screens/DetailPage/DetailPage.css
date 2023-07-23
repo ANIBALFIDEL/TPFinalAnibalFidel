@@ -1,0 +1,16 @@
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.5fr));
+    gap: 32px;
+    align-items: center;
+    margin-top: 30px;
+   }
+
+   .productContainer :nth-child(1){
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .productContainerImg{
+    width: 30vw;
+   }

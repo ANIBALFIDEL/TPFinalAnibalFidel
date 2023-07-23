@@ -1,0 +1,12 @@
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 2vh;
+    margin: 0 auto;
+}
+
+.contactForm input{
+    border: none;
+    border-bottom: 1px solid rgb(94, 92, 92);
+}

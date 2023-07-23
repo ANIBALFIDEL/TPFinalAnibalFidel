@@ -1,0 +1,47 @@
+
+   .btn-dropdown{
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+   }
+
+   .oculto{
+    display: none;
+   }
+
+   .DropDownButton-linkContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    animation: menuOpacity 2S ease;
+   }
+
+   .backgroundDropdown{
+    background-color: #daeeee;
+   }
+
+   @keyframes menuOpacity {
+      0% {
+        opacity: 0;
+      }
+      25% {
+        opacity: 0.25;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      75% {
+        opacity: 0.75;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+
+   .alignButtonMenu{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+   }
+

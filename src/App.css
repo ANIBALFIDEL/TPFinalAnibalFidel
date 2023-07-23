@@ -1,0 +1,39 @@
+ header{
+  height: 70px;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(237, 239, 242, 1);
+  border-bottom: 2px solid #686666;
+ }
+
+
+
+
+footer{
+  margin-top: 50px;
+  display: flex;
+  gap: 15vw;
+  align-items: center;
+  justify-content: center;
+  background-color: #C4DFDF;
+}
+
+footer :nth-child(2){
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (max-width: 500px) {
+  aside{
+    display: none;    
+  }
+
+  html{
+    font-size: 12px;
+  }
+
+  main{
+    width: 100%;
+  }
+}

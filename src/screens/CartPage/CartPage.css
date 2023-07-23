@@ -1,0 +1,25 @@
+.cartProductContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.5fr));
+    gap: 32px;
+    align-items: center;
+    margin-top: 30px;
+   }
+
+   .cartProductContainer :nth-child(1){
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .cartProductContainer img{
+    max-width: 100%;
+   }
+
+   .totalCompra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 50px;
+    font-size: 20px;
+   }

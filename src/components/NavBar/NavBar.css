@@ -1,0 +1,75 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .navBarLogoContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .navBarLogoContainer h1{
+    position: fixed;
+    font-size: 1.8rem;
+    top: 1.5vh;
+    left: 8vw;
+  }
+  
+  .imgLogo{
+    max-width: 4vw;
+    min-width: 40px;
+    position: fixed;
+    top: 1vh;
+    left: 1vw;
+   }
+
+   .navBar_iconContainer{
+    display: flex;
+    gap: 4vw;
+   }
+
+   .navLink{
+    text-decoration: none;
+    color: #88a8a8;
+    font-size: 1.5rem;
+    padding: 10px 10px 10px 10px;
+    
+   }
+
+   .navLink:hover{
+    cursor: pointer;
+    font-size: 1.6rem;
+    transition: 0.5s;
+    color: #507070;
+   }
+
+   .btn-dropdown-container{
+    display: none;
+    align-items: flex-end;
+   }
+
+
+   @media (max-width: 520px) {
+    .btn-dropdown-container{
+      display: block;
+     }
+     .navBar_iconContainer{
+      display: none;
+     }
+     .navBarLogoContainer h1{
+      position: fixed;
+      top: 1.5vh;
+      left: 18vw;
+    }
+    
+    .imgLogo{
+      width: 40px;
+      position: fixed;
+      top: 1vh;
+      left: 1vw;
+     }  
+  }
+  
